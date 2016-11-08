@@ -1,0 +1,61 @@
+BOET WALDBJORN
+photographer | host | web developer
+
+    I am a front-leaning, full-stack developer with a strong interest in code as design and IoT. A strong background in printmaking and theater design has given me an eye for how things work together and a mind for how they should work together.
+ 
+ PHOTOGRAPHER
+ An alumni of Eastern Washington Unversity, I have a been a photographer for almost 20 years now.
+
+ HOST
+ I've been cohost of Clinically Inane podcast for 4 years plus others projects.
+
+ WEB ENGINEER
+ I am a front-end developer recently graduated from the General Assembly Wed Develoment Bootcamp.
+
+ WORK EXPERIENCE<
+
+    <pre><strong>EXPERIENCE</strong>
+Simply Mac, Kent, WA & Seattle, WA
+02/13 - Present
+Sales, Technician, Manager
+Ran day to day operation of the store and training of employees.
+Acted as escalation point for customers with satisfaction issues.
+Supervised staff interactions with customer.
+Mentored employees in leadership and sales process development 
+through the company’s sales programs
+
+Bridge Consulting Group
+06/11 - 01/12
+Technical Recruiter
+Recruited various technical professionals in Seattle area
+Sourced, qualified, and interviewed candidates
+Represented company in meetings and social events
+Clients included Microsoft, Pokèmon, Expedia & more.
+
+Pyramid Staging
+09/13 - 03/15
+Stage Hand
+Worked in crews building staging and setting up audio and rigging equipment 
+Oversaw loading and unloading of gear for most efficient setups
+Interacted with public and clients at a variety of locations and venues 
+Cohost/ Contributing Author at Clinically Inane 
+May 2012 - Present 
+
+Photographer at BoetW 
+2008 - Present  
+
+
+<strong>EDUCATION</strong>
+General Assembly, Seattle, WA
+2016
+Web Dev Immersive
+Intensive 12-week bootcamp covering AngularJS, Front End, JavaScript, 
+MongoDB, HTML, Git, Rails, SQL, jQuery, Ruby, CSS, Express.js, React.js, 
+Node.js. Built real websites, APIs, and data-driven apps while collaborating 
+with peers on a range of projects.
+
+Eastern Washington University, Cheney, WA
+2005 - 2009
+Bachelor of Arts, Studio Art
+Extensive course work in photography, theater design, and silkscreening. 
+Worked heavily with large format printer and color management.</pre>
