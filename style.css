@@ -37,7 +37,7 @@ video {
       margin: 0 0;
   padding-top: 15%;
   padding-bottom: 25%;
-  -webkit-text-stroke: 1px darkgrey;
+  /*-webkit-text-stroke: 1px darkgrey;*/
   background: url("./images/parallax.jpg") fixed 100%;
   background-size: cover;
   background-position: center; 
@@ -90,7 +90,7 @@ h1 {
   border-right: 1px solid white;
   border-left: none;
   padding: 0 5px 0 5px;
-    -webkit-text-stroke: 1px darkgrey;
+    /*-webkit-text-stroke: 1px darkgrey;*/
 
 }
 #hostTitle{
@@ -98,7 +98,7 @@ h1 {
   border-right: 1px solid white;
   border-left: 1px solid white;
   padding: 0 5px 0 5px;
-    -webkit-text-stroke: 1px darkgrey;
+    /*-webkit-text-stroke: 1px darkgrey;*/
 
 }
 #devTitle{
@@ -106,7 +106,7 @@ h1 {
   border-right: none;
   border-left: 1px solid white;
     padding: 0 5px 0 5px;
-      -webkit-text-stroke: 1px darkgrey;
+      /*-webkit-text-stroke: 1px darkgrey;*/
 
 }
 a{
