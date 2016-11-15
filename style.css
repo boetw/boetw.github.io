@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #8E8699;
+  background-color: #black;
   color: #ffffff;
 }
 
@@ -18,11 +18,9 @@ video {
 
 
 .gridContainer {
-  margin-left: auto;
-  margin-right: auto;
-  width: 87.36%;
-  padding-left: 1.82%;
-  padding-right: 1.82%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 #Wrapper {
@@ -36,11 +34,13 @@ video {
 
 /*Parallax Header*/
 .header{
-    background: url("./images/parallax.jpg") fixed 100%;
       margin: 0 0;
-  padding-top: 25%;
+  padding-top: 15%;
   padding-bottom: 25%;
-
+  -webkit-text-stroke: 1px darkgrey;
+  background: url("./images/parallax.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center; 
 }
 h1 {
   text-align: center;
@@ -48,8 +48,91 @@ h1 {
   font-size: 500%;
   color: #ffffff;
   letter-spacing: 1%;
+  margin: 0px;
   }
 .profile-image{
   width: 200px;
   border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.section{
+  width: 100%;
+  background: grey;
+  min-height: 400px;
+  /*padding: 50px 20px 50px 20px;*/
+  border-top: 5px solid black;
+  padding-right: 0px;
+}
+.parallax1{
+  height: 800px;    
+  background: url("./images/image-1.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+.parallax2{
+  height: 800px;    
+  background: url("./images/image-2.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center;6a
+}
+.parallax3{
+  height: 800px;    
+  background: url("./images/image-6.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center;
+}
+#photoTitle{
+  display: inline-block;
+  border-right: 1px solid white;
+  border-left: none;
+  padding: 0 5px 0 5px;
+    -webkit-text-stroke: 1px darkgrey;
+
+}
+#hostTitle{
+  display: inline-block;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0 5px 0 5px;
+    -webkit-text-stroke: 1px darkgrey;
+
+}
+#devTitle{
+  display: inline-block;
+  border-right: none;
+  border-left: 1px solid white;
+    padding: 0 5px 0 5px;
+      -webkit-text-stroke: 1px darkgrey;
+
+}
+a{
+  color: white;
+}
+a :hover{
+  color: #8E8699;
+    -webkit-text-stroke: 1px white;
+
+}
+.section p{
+  /*background: rgba(0, 0, 0, 0.5);*/
+  padding: 20px 50px 20px 50px;
+background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 );
+}
+.subTitle{
+  /*background: rgba(0,0,0,0.6);*/
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#80000000',GradientType=0 );
+}
+.image{
+  margin: 5%;
+  height: 250px;
 }
