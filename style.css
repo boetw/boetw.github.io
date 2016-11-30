@@ -6,7 +6,7 @@ border: 0;
 
 body {
 background-color: #black;
-color: #B3B3B3;
+color: #454646;
 }
 
 img,
@@ -44,9 +44,21 @@ h1 {
 text-align: center;
 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 font-size: 500%;
-color: #b3b3b3;
+color: #E4E7E7;
 letter-spacing: 1%;
 margin: 0px;
+}
+
+h2{
+	margin: 0px;
+	color: "FAFFA"
+}
+h3{
+	color: #4A4A4A;
+}
+h4{
+	color: #191919;
+	margin:40px;
 }
 
 .profile-image{
@@ -60,7 +72,7 @@ margin-bottom: 10px;
 
 .section{
 width: 100%;
-background: #555555;
+background: #FAFAFA;
 min-height: 400px;
 /*padding: 50px 20px 50px 20px;*/
 border-top: 5px solid black;
@@ -68,21 +80,21 @@ padding-right: 0px;
 }
 
 .parallax1{
-height: 400px;
+height: 700px;
 background: url("./images/image-1.jpg") fixed 100%;
 background-size: cover;
 background-position: center;
 }
 
 .parallax2{
-height: 600px;
+height: 700px;
 background: url("./images/image-2.jpg") fixed 100%;
 background-size: cover;
 background-position: center;
 }
 
 .parallax3{
-height: 800px;
+height: 700px;
 background: url("./images/image-6.jpg") fixed 100%;
 background-size: cover;
 background-position: center;
@@ -113,11 +125,12 @@ padding: 0 5px 0 5px;
 }
 
 a{
-color: #b3b3b3;
+color: #E4E7E7;
 }
 
 a :hover{
-color: #ffffff;
+color: #000000;
+text-decoration:none;
 /*-webkit-text-stroke: 1px white;*/
 }
 
@@ -131,6 +144,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 .subTitle{
+	color: #0E0E0E;
 /*background: rgba(0,0,0,0.6);*/
 /*background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%); 
 background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 100%); 
@@ -141,10 +155,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .image{
 width:100%;
 padding:20px;
+margin: auto;
 }
 
 .subsection{
 	width:30%;
 	min-width: 200px;
+	max-width: 500px;
 	display:inline-block;
+}
+.github{
+	width: 24px;
+}
+#cinLink{
+	margin: auto
+	width: 100%;
 }

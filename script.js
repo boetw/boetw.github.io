@@ -8,6 +8,8 @@ $(document).ready(function () {
   	var size = myWidth+"px "+myHeight+"px"
   	console.log('size: '+size);
   	document.getElementById("landerView").style.height = myHeight+"px";
+  	document.getElementById("parallax").style.height = myHeight+"px";
+
   // } else {
   	console.log('Height Greater');
   	// document.getElementById("landView").style.height = myHeight+"px";
