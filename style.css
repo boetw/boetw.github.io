@@ -35,9 +35,9 @@ margin: 0 0;
 padding-top: 15%;
 padding-bottom: 25%;
 /*-webkit-text-stroke: 1px darkgrey;*/
-background: url("./images/parallax.jpg") fixed 100%;
+background: url("./images/parallax.jpg") fixed;
 background-size: cover;
-background-position: center;
+background-position: center; 
 }
 
 h1 {
@@ -60,7 +60,7 @@ margin-bottom: 10px;
 
 .section{
 width: 100%;
-background: grey;
+background: #555555;
 min-height: 400px;
 /*padding: 50px 20px 50px 20px;*/
 border-top: 5px solid black;
@@ -68,14 +68,14 @@ padding-right: 0px;
 }
 
 .parallax1{
-height: 800px;
+height: 400px;
 background: url("./images/image-1.jpg") fixed 100%;
 background-size: cover;
 background-position: center;
 }
 
 .parallax2{
-height: 800px;
+height: 600px;
 background: url("./images/image-2.jpg") fixed 100%;
 background-size: cover;
 background-position: center;
@@ -139,6 +139,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 .image{
-margin: 5%;
-height: 250px;
+width:100%;
+padding:20px;
+}
+
+.subsection{
+	width:30%;
+	min-width: 200px;
+	display:inline-block;
 }
