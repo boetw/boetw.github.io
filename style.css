@@ -1,126 +1,194 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0
 }
+
 body {
-	background-color: #FAFAFA;
-	color: #454646;
-	font-family: 'Noto Sans', sans-serif;
+  background-color: black;
+  color: #454646;
+  font-family: 'Noto Sans', sans-serif
 }
-img, object, embed, video {
-	max-width: 100%;
+
+.contain {
+  background-color: #FAFAFA
 }
+
+img,
+object,
+embed,
+video {
+  max-width: 100%
+}
+
 .gridContainer {
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%
 }
+
 #Wrapper {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
+  clear: both;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  display: block
 }
+
 .header {
-	margin: 0 0;
-	padding-top: 20%;
-	padding-bottom: 25%;/*-webkit-text-stroke: 1px #A9AAAD;*/
-	background: url("./images/fill-lander.jpg") fixed;
-	background-size: cover;
-	background-position: center;
+  margin: 0 0;
+  padding-top: 20%;
+  padding-bottom: 25%;
+  background: url("./images/fill-lander.jpg") fixed;
+  background-size: cover;
+  background-position: center
 }
+
 h1 {
-	text-align: center;
-	font-size: 600%;
-	color: #262727;
-	letter-spacing: 1%;
-	margin: 0px;
+  text-align: center;
+  font-size: 600%;
+  color: #262727;
+  letter-spacing: 1%;
+  margin: 0px
 }
+
 h2 {
-	margin: 0px;
-	color: #262727;
+  margin: 0px;
+  color: #262727
 }
+
 h3 {
-	color: #4A4A4A;
+  color: #4A4A4A
 }
+
 h4 {
-	color: #191919;
-	margin: 40px;
+  color: #191919;
+  margin: 40px
 }
+
 br {
-	font-size: 150%;
+  font-size: 150%
 }
+
 .profile-image {
-	width: 200px;
-	border-radius: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px
 }
+
 .section {
-	width: 100%;
-	background: #FAFAFA;
-	min-height: 400px;/*padding: 50px 20px 50px 20px;*/
-	margin-bottom: 30px;
-
-	/*border-top: 5px solid black;*/
-	padding-right: 0px;
+  width: 100%;
+  background: #FAFAFA;
+  min-height: 400px;
+  margin-bottom: 30px;
+  padding-right: 0px
 }
+
 .parallax1 {
-	height: 700px;
-	background: url("./images/image-1.jpg") fixed 100%;
-	background-size: cover;
-	background-position: center;
+  height: 700px;
+  background: url("./images/image-1.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center
 }
-.parallax2 {
-	height: 700px;
-	background: url("./images/image-2.jpg") fixed 100%;
-	background-size: cover;
-	background-position: center;
-}
-.parallax3 {
-	height: 700px;
-	background: url("./images/image-6.jpg") fixed 100%;
-	background-size: cover;
-	background-position: center;
-}
-a {
-	color: #262727;
-}
-a:hover {
-	color: #000000;
-	text-decoration: none;/*-webkit-text-stroke: 1px white;*/
-}
-.section p {
 
-	/*background: rgba(0, 0, 0, 0.5);*/
-	padding: 20px 50px 20px 50px;
+.parallax2 {
+  height: 700px;
+  background: url("./images/image-4.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center
 }
+
+.parallax3 {
+  height: 700px;
+  background: url("./images/image-6.jpg") fixed 100%;
+  background-size: cover;
+  background-position: center
+}
+
+a {
+  color: #262727
+}
+
+a:hover {
+  color: #4C4C4C;
+  text-decoration: none
+}
+
+.section p {
+  padding: 20px 50px 20px 50px
+}
+
 .subheader {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px
 }
+
 .subTitle {
-	color: #0E0E0E;
+  color: #0E0E0E
 }
+
 .image {
-	width: 100%;
-	padding: 20px;
-	margin: auto;
+  width: 100%;
+  margin: auto
 }
+
+.subsection:hover img {
+  box-shadow: 8px 8px 3px grey;
+  padding: 0px;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02)
+}
+
 .subsection {
-	width: 33%;
-	min-width: 200px;
-	/* max-width: 500px; */
-	display: inline-block;
+  width: 33%;
+  margin: auto;
+  min-width: 200px;
+  padding: 20px;
+  display: inline-block
 }
+
+.subsection2 {
+  width: 25%;
+  margin: auto;
+  min-width: 200px;
+  display: inline-block
+}
+
 .github {
-	margin: auto;
-display: block;}
+  margin: auto;
+  display: block
+}
+
 #cinLink {
-	margin: auto
-	width:100%;
+  margin: auto;
+  height: 74px;
+  padding: 2px;
+  color: red;
+  font-size: 120%;
+  font-family: 'Bree Serif', serif;
+  display: inline-block
+}
+
+.resume {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 50px 10px 50px
+}
+
+.resume section {
+  width: 100%
+}
+
+.resume p {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black
 }
