@@ -46,7 +46,7 @@ video {
 
 h1 {
   text-align: center;
-  font-size: 600%;
+  font-size: 700%;
   color: #262727;
   letter-spacing: 1%;
   margin: 0px
@@ -123,11 +123,15 @@ a:hover {
 
 .subheader {
   padding: 0px;
-  margin: 0px
+  margin: 0px;
+  font-size: 250%;
+  word-spacing: 20px;
 }
 
 .subTitle {
-  color: #0E0E0E
+  color: #0E0E0E;
+  font-size: 500%;
+  font-weight: 500;
 }
 
 .image {
