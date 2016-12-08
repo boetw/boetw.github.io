@@ -35,12 +35,12 @@ video {
   display: block
 }
 
-.header {
+#landerView {
   margin: 0 0;
   padding-top: 20%;
   padding-bottom: 25%;
   background: url("./images/fill-lander.jpg") no-repeat center center fixed;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: center
 }
 
