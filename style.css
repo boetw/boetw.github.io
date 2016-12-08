@@ -4,17 +4,6 @@
   border: 0
 }
 
-@media only screen{
-  #landerView {
-  margin: 0 0;
-  padding-top: 20%;
-  padding-bottom: 25%;
-  background-color: red;
-  background-size: cover;
-  background-position: center
-}
-}
-
 body {
   background-color: black;
   color: #454646;
@@ -50,7 +39,7 @@ video {
   margin: 0 0;
   padding-top: 20%;
   padding-bottom: 25%;
-  background-color: blue;
+  background: url("./images/fill-lander.jpg") no-repeat center center fixed;
   background-size: contain;
   background-position: center
 }
