@@ -9,7 +9,6 @@
   margin: 0 0;
   padding-top: 20%;
   padding-bottom: 25%;
-  /* background: url("./images/mobile/fill-lander.jpg") no-repeat center center fixed; */
   background-color: red;
   background-size: cover;
   background-position: center
@@ -51,7 +50,6 @@ video {
   margin: 0 0;
   padding-top: 20%;
   padding-bottom: 25%;
-  /* background: url("./images/fill-lander.jpg") no-repeat center center fixed; */
   background-color: blue;
   background-size: contain;
   background-position: center
