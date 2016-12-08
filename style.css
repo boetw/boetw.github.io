@@ -40,13 +40,13 @@ video {
   padding-top: 20%;
   padding-bottom: 25%;
   background: url("./images/fill-lander.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size: contain;
   background-position: center
 }
 
 h1 {
   text-align: center;
-  font-size: 700%;
+  font-size: 500%;
   color: #262727;
   letter-spacing: 1%;
   margin: 0px
