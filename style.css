@@ -8,6 +8,34 @@ body {
   background-color: black;
   color: #454646;
   font-family: 'Noto Sans', sans-serif;
+
+}
+
+header {
+  display: inline;
+  background: white;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+}
+.hidden{
+  visibility:hidden;
+    transition: top 1s ease-in-out;
+
+}
+header span{
+  margin-left: 5%;
+}
+#boetHead{
+ font-size: 200%;
+}
+#photoHead{
+  font-size: 150%;
+}
+#devHead{
+  font-size: 150%;
 }
 
 .contain {
