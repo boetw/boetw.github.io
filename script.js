@@ -9,5 +9,4 @@ $(document).ready(function () {
   	document.getElementById("landerView").style.height = myHeight+"px";
   	document.getElementById("parallax").style.height = myHeight+"px";
     document.getElementById("landerView").style.backgroundSize ="auto "+ myHeight +"px";
-    document.getElementById('size').innerHTML="Width:"+myWidth+" Height:"+myHeight;
 })
