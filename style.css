@@ -7,8 +7,7 @@
 body {
   background-color: black;
   color: #454646;
-  font-family: 'Noto Sans', sans-serif;
-
+  font-family: 'Lora', serif;
 }
 
 header {
@@ -20,21 +19,29 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
-.hidden{
-  visibility:hidden;
-    transition: top 1s ease-in-out;
 
+.hidden {
+  visibility: hidden;
+  transition: top 1s ease-in-out;
 }
-header span{
-  margin-left: 5%;
+
+header span {
+  margin-left: 2.5%;
+  margin-top: 50px;
 }
-#boetHead{
- font-size: 200%;
+
+#boetHead {
+  font-size: 170%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  vertical-align: middle;
 }
-#photoHead{
+
+#photoHead {
   font-size: 150%;
 }
-#devHead{
+
+#devHead {
   font-size: 150%;
 }
 
@@ -67,35 +74,40 @@ video {
   margin: 0 0;
   padding-top: 20%;
   padding-bottom: 25%;
-  background: url("./images/fill-lander.jpg") no-repeat center center fixed;
+  background: url("./images/header.jpg") no-repeat center center fixed;
   background-size: contain;
   background-position: center
+}
+
+.header h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
 }
 
 h1 {
   text-align: center;
   font-size: 500%;
-  color: #262727;
   letter-spacing: 1%;
   margin: 0px
 }
 
 h2 {
   margin: 0px;
-  color: #262727
 }
 
 h3 {
-  color: #4A4A4A
 }
 
 h4 {
-  color: #191919;
   margin: 40px
 }
 
 br {
   font-size: 150%
+}
+
+.headerText {
+  color: white;
 }
 
 .profile-image {
@@ -129,19 +141,23 @@ br {
   background-position: center
 }
 
-.parallax3 {
-  height: 700px;
+#parallax {
+  height: 1000px;
   background: url("./images/image-6.jpg") fixed 100%;
   background-size: cover;
   background-position: center
 }
 
 a {
-  color: #262727
+  color: black;
+}
+
+.headerText a {
+  color: white;
 }
 
 a:hover {
-  color: #4C4C4C;
+  color: #ff8518;
   text-decoration: none
 }
 
@@ -153,13 +169,15 @@ a:hover {
   padding: 0px;
   margin: 0px;
   font-size: 250%;
-  word-spacing: 20px;
+  word-spacing: 0px;
+  margin-top:;
 }
 
 .subTitle {
   color: #0E0E0E;
   font-size: 500%;
   font-weight: 500;
+  margin-top: 40px;
 }
 
 .image {
@@ -184,13 +202,14 @@ a:hover {
   padding: 20px;
   display: inline-block
 }
-#gitLink{
+
+#gitLink {
   width: 100%;
   padding-right: 45%;
   padding-left: 45%;
 }
 
-#codeHeader{
+#codeHeader {
   margin: 50px 0 15px 0;
 }
 
@@ -201,7 +220,8 @@ a:hover {
   min-width: 150px;
   display: inline-block
 }
-.subsection2 > img{
+
+.subsection2 > img {
   width: 400px;
 }
 
@@ -219,10 +239,12 @@ a:hover {
   font-family: 'Bree Serif', serif;
   display: inline-block
 }
-.codeLink img{
+
+.codeLink img {
   height: 25px;
 }
-.codeLink h3{
+
+.codeLink h3 {
   font-size: 25px;
 }
 
