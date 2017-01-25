@@ -299,21 +299,18 @@ visibility: hidden;
   .parallax1 {
   height: 100px;
   background: url("./images/headerMobile.jpg") fixed;
-  background-size: cover;
   background-position: center
 }
 
 .parallax2 {
   height: 100px;
   background: url("./images/headerMobile.jpg") fixed;
-  background-size: cover;
   background-position: center
 }
 
 #parallax {
   height: 100px;
   background: url("./images/headerMobile.jpg") fixed;
-  background-size: cover;
   background-position: center
 }
 .subsection2 {
