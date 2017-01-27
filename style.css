@@ -205,8 +205,6 @@ a:hover {
 
 #gitLink {
   width: 100%;
-  padding-right: 45%;
-  padding-left: 45%;
 }
 
 #codeHeader {
@@ -225,9 +223,14 @@ a:hover {
   width: 400px;
 }
 
+.codeDescription {
+  margin-top: 5px;
+}
+
 .github {
   margin: auto;
-  display: block
+  display: block;
+  max-width: 60px;
 }
 
 #cinLink {
@@ -265,61 +268,75 @@ a:hover {
   padding: 10px;
   border: 1px solid black
 }
-@media screen and (max-width: 700px){
+
+@media screen and (max-width:700px) {
+  body{
+            background: url("./images/headerMobile.jpg") fixed;
+    background-size: contain;
+    background-position: center
+  }
+  .bodyWrap {
+    width: 95%;
+    margin: 0 auto;
+  }
 
   h1 {
-  font-size: 400%;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 700;
-  vertical-align: middle;
-  margin-bottom: 40px;
-}
-header {
-visibility: hidden;
-  height: 0px;
+    font-size: 400%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-bottom: 40px;
+  }
 
-}
+  header {
+    visibility: hidden;
+    height: 0px;
+  }
 
-.subTitle {
-  color: #0E0E0E;
-  font-size: 300%;
-  font-weight: 500;
-  margin-top: 40px;
-}
+  .subTitle {
+    color: #0E0E0E;
+    font-size: 300%;
+    font-weight: 500;
+    margin-top: 40px;
+  }
 
   #landerView {
-  margin: 0 0;
-  padding-top: 20%;
-  padding-bottom: 25%;
-  background: url("./images/headerMobile.jpg") fixed;
-  background-size: contain;
-  background-position: center
-}
+    margin: 0 0;
+    padding-top: 20%;
+    padding-bottom: 25%;
+    background: url("./images/headerMobile.jpg") fixed;
+    background-size: contain;
+    background-position: center
+  }
 
   .parallax1 {
-  height: 100px;
-  background: url("./images/headerMobile.jpg") fixed;
-  background-position: center
-}
+    height: 100px;
+    background: url("./images/headerMobile.jpg") fixed;
+    background-size: cover;
+    background-position: center
+  }
 
-.parallax2 {
-  height: 100px;
-  background: url("./images/headerMobile.jpg") fixed;
-  background-position: center
-}
+  .parallax2 {
+    height: 100px;
+    background: url("./images/headerMobile.jpg") fixed;
+    background-size: contain;
+    background-position: center
+  }
 
-#parallax {
-  height: 100px;
-  background: url("./images/headerMobile.jpg") fixed;
-  background-position: center
-}
-.subsection2 {
-  width: 100%;
-  margin: 0   auto;
-  padding: 20px 20px 0px 20px;
-  min-width: 150px;
-  display: inline-block;
-  border-top: 1px black solid;
-}
+  #parallax {
+    height: 100px;
+    background: url("./images/headerMobile.jpg") fixed;
+    background-size: cover;
+    background-position: center
+  }
+
+  .subsection2 {
+    width: 100%;
+    margin: 0   auto;
+    padding: 20px 20px 0px 20px;
+    min-width: 150px;
+    display: inline-block;
+    border-top: 1px black solid;
+  }
 
 }
