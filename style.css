@@ -312,7 +312,7 @@ a:hover {
   .parallax1 {
     height: 100px;
     background: url("./images/headerMobile.jpg") fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: center
   }
 
@@ -326,7 +326,7 @@ a:hover {
   #parallax {
     height: 100px;
     background: url("./images/headerMobile.jpg") fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: center
   }
 
