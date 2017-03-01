@@ -8,9 +8,9 @@ $(document).ready(function() {
     $(window).on("scroll", function() {
         var fromTop = $(window).scrollTop();
         if (fromTop > 575) {
-            $("header").removeClass("hidden");
+            $("header").slideDown(1000).removeClass("hidden");
         } else if (fromTop < 575) {
-            $("header").addClass("hidden");
+            $("header").addClass("hidden").slideUp(1000);
         }
     });
 })

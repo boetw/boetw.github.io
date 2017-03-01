@@ -18,7 +18,7 @@ header {
   width: 100%;
 }
 .hidden {
-  visibility: hidden;
+  height: hidden;
   transition: top 1s ease-in-out;
 }
 header span {
@@ -78,10 +78,17 @@ h2 {
 h3 {
 }
 h4 {
-  margin: 40px
+  margin: 40px;
+  margin-bottom: 0px;
 }
 br {
   font-size: 150%
+}
+.flexbox{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: stretch;
 }
 .headerText {
   color: white;
@@ -170,7 +177,6 @@ a:hover {
 }
 .subsection2 {
   width: 33%;
-  margin: auto;
   padding: 20px;
   min-width: 150px;
   display: inline-block
@@ -180,6 +186,7 @@ a:hover {
 }
 .codeDescription {
   margin-top: 5px;
+  min-height: 60px;
 }
 .github {
   margin: auto;
@@ -202,6 +209,9 @@ a:hover {
   font-size: 25px;
 }
 .resume {
+      display: -webkit-flex;
+    display: flex;
+        justify-content: center;
   margin: 0 auto;
   text-align: center;
   padding: 10px 50px 10px 50px
