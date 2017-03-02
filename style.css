@@ -294,4 +294,10 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     display: inline-block;
     border-top: 1px black solid;
   }
+  .subsection{
+    width: 100%;
+  }
+  .flexbox{
+    display: inline;
+  }
 }
