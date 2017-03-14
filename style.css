@@ -3,11 +3,13 @@
   padding: 0;
   border: 0
 }
+
 body {
   background-color: #000000;
   color: #454646;
   font-family: 'Lora', serif;
 }
+
 header {
   display: inline;
   background: #FAFAFA;
@@ -17,52 +19,66 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+
 .noSelect {
-  cursor:default;
+  cursor: default;
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
 }
-.holder{
+
+.holder {
   background: #FAFAFA;
 }
+
 .hidden {
   height: hidden;
   transition: top 1s ease-in-out;
 }
+
 header span {
   margin-left: 2.5%;
   margin-top: 50px;
 }
+
 #boetHead {
   font-size: 170%;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
   vertical-align: middle;
 }
+
 #photoHead {
   font-size: 150%;
 }
+
 #devHead {
   font-size: 150%;
 }
+
 .landImage {
   background: url("./images/header.jpg") no-repeat center center fixed;
   background-size: cover;
   background-position: center
 }
-img, object, embed, video {
+
+img,
+object,
+embed,
+video {
   max-width: 100%
 }
+
 .gridContainer {
   margin-left: 0;
   margin-right: 0;
   width: 100%
 }
+
 #Wrapper {
   clear: both;
   float: left;
@@ -71,47 +87,55 @@ img, object, embed, video {
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
+
 #landerView {
-  margin: 0 0;
-  /* padding-top: 25%; */
+  margin: 0 0;  /* padding-top: 25%; */
   padding-bottom: 10%;
 }
+
 .header h1 {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 900;
 }
-.header-title{
 
+.header-title {
 }
+
 h1 {
   text-align: center;
   font-size: 500%;
   letter-spacing: 1%;
   margin: 0px
 }
+
 h2 {
   margin: 0px;
 }
+
 h3 {
 }
+
 h4 {
   margin: 40px;
   margin-bottom: 0px;
 }
+
 br {
   font-size: 150%
 }
-.flexbox{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: flex-start;
-    align-items: stretch;
+
+.flexbox {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start;
+  align-items: stretch;
 }
+
 .headerText {
   color: white;
 }
+
 .section {
   width: 100%;
   background: #FAFAFA;
@@ -119,37 +143,45 @@ br {
   margin-bottom: 30px;
   padding-right: 0px
 }
+
 .parallax1 {
   height: 700px;
   background: url("./images/image-1.jpg") fixed 100%;
   background-size: cover;
   background-position: center
 }
+
 .parallax2 {
   height: 700px;
   background: url("./images/image-4.jpg") fixed 100%;
   background-size: cover;
   background-position: center
 }
-#parallax {
+
+.parallax3 {
   height: 1000px;
   background: url("./images/image-6.jpg") fixed 100%;
   background-size: cover;
   background-position: center
 }
+
 a {
   color: black;
 }
+
 .headerText a {
   color: white;
 }
+
 a:hover {
   color: #ff8518;
   text-decoration: none
 }
+
 .section p {
   padding: 20px 50px 20px 50px
 }
+
 .subheader {
   padding: 0px;
   margin: 0px;
@@ -157,24 +189,30 @@ a:hover {
   word-spacing: 0px;
   margin-top:;
 }
+
 .subTitle {
   color: #0E0E0E;
   font-size: 500%;
   font-weight: 500;
 }
+
 #host {
   padding-top: 60px;
 }
+
 #photo {
   padding-top: 60px;
 }
+
 #developer {
   padding-top: 60px;
 }
+
 .image {
   width: 100%;
   margin: auto
 }
+
 .subsection:hover img {
   box-shadow: 8px 8px 3px grey;
   padding: 0px;
@@ -184,6 +222,7 @@ a:hover {
   -o-transform: scale(1.02);
   transform: scale(1.02)
 }
+
 .subsection {
   width: 33%;
   margin: auto;
@@ -191,30 +230,37 @@ a:hover {
   padding: 20px;
   display: inline-block
 }
+
 #gitLink {
   width: 100%;
 }
+
 #codeHeader {
   margin: 50px 0 15px 0;
 }
+
 .subsection2 {
   width: 33%;
   padding: 20px;
   min-width: 150px;
   display: inline-block
 }
+
 .subsection2 > img {
   width: 400px;
 }
+
 .codeDescription {
   margin-top: 5px;
   min-height: 60px;
 }
+
 .github {
   margin: auto;
   display: block;
   max-width: 60px;
 }
+
 #cinLink {
   margin: auto;
   height: 74px;
@@ -224,23 +270,28 @@ a:hover {
   font-family: 'Bree Serif', serif;
   display: inline-block
 }
+
 .codeLink img {
   height: 25px;
 }
+
 .codeLink h3 {
   font-size: 25px;
 }
+
 .resume {
-      display: -webkit-flex;
-    display: flex;
-        justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
   padding: 10px 50px 10px 50px
 }
+
 .resume section {
   width: 100%
 }
+
 .resume p {
   display: inline-block;
   text-align: center;
@@ -258,10 +309,12 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     background-size: contain;
     background-position: center
   }
+
   .bodyWrap {
     width: 95%;
     margin: 0 auto;
   }
+
   h1 {
     font-size: 400%;
     font-family: 'Libre Franklin', sans-serif;
@@ -269,21 +322,26 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     vertical-align: middle;
     margin-bottom: 40px;
   }
+
   header {
     visibility: hidden;
     height: 0px;
   }
-  .section{
+
+  .section {
     border-radius: 5px;
   }
+
   .subTitle {
     color: #0E0E0E;
     font-size: 300%;
     font-weight: 500;
   }
-  .landImage{
+
+  .landImage {
     background: none;
   }
+
   #landerView {
     margin: 0 0;
     padding-top: 20%;
@@ -292,24 +350,28 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     background-size: contain;
     background-position: center
   }
+
   .parallax1 {
     height: 100px;
     background: url("./images/headerMobile.jpg") fixed;
     background-size: contain;
-    background-position: center
+    background-position: center;
   }
+
   .parallax2 {
     height: 100px;
     background: url("./images/headerMobile.jpg") fixed;
     background-size: contain;
-    background-position: center
+    background-position: center;
   }
-  #parallax {
+
+  .parallax3 {
     height: 100px;
     background: url("./images/headerMobile.jpg") fixed;
     background-size: contain;
-    background-position: center
+    background-position: center;
   }
+
   .subsection2 {
     width: 100%;
     margin: 0   auto;
@@ -318,22 +380,33 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     display: inline-block;
     border-top: 1px black solid;
   }
-  .subsection{
+
+  .subsection {
     width: 100%;
   }
-  .flexbox{
+
+  .flexbox {
     display: inline;
   }
-  #photo{
+
+  #photo {
     padding-top: 20px;
   }
-  #developer{
+
+  #developer {
     padding-top: 20px;
   }
-  #host{
+
+  #host {
     padding-top: 20px;
   }
-  .hidden{
+
+  .hidden {
     height: auto;
   }
+
+  .parallax3 {
+    height: 0px;
+  }
+
 }
