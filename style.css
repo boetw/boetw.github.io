@@ -327,6 +327,9 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
     visibility: hidden;
     height: 0px;
   }
+  .holder {
+  background: none;
+}
 
   .section {
     border-radius: 5px;
