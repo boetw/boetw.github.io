@@ -17,6 +17,10 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+strong{
+  font-weight: 900;
+  font-size: 125%;
+}
 .noSelect {
   cursor: default;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -155,9 +159,10 @@ a:hover {
   margin-top:;
 }
 .subTitle {
+    font-family: 'Libre Franklin', sans-serif;
   color: #0E0E0E;
-  font-size: 500%;
-  font-weight: 500;
+  font-size: 400%;
+  font-weight: 900;
 }
 #host {
   padding-top: 60px;
@@ -286,7 +291,7 @@ MEDIA SECTION STARTS HERE, ALL MEDIA CSS BELOW THIS, THIS IS A LONG LINE TO MAKE
   }
   #landerView {
     margin: 0 0;
-    padding-top: 20%;
+    padding-top: 50%;
     padding-bottom: 25%;
     background: url("./images/headerMobile.jpg") fixed;
     background-size: contain;
