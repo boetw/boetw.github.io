@@ -233,7 +233,7 @@ a:hover {
     margin: auto
 }
 
-.subsection:hover img {
+img:hover {
     box-shadow: 8px 8px 3px grey;
     padding: 0px;
     -webkit-transform: scale(1.02);
