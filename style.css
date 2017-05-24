@@ -243,6 +243,16 @@ img:hover {
     transform: scale(1.02)
 }
 
+.github:hover {
+    box-shadow: none;
+    padding: 0px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1)
+}
+
 .subsection {
     width: 33%;
     margin: auto;
@@ -336,7 +346,6 @@ img:hover {
     color: #ff8518;
     text-decoration: none;
     cursor: pointer;
-
 }
 
 #contactBtn:active {
@@ -357,19 +366,22 @@ img:hover {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%)
 }
-#contactForm h1{
-      font-family: 'Libre Franklin', sans-serif;
+
+#contactForm h1 {
+    font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
 }
-form{
-  margin-top: 10px;
-border: 1px solid lightgray;
+
+form {
+    margin-top: 10px;
+    border: 1px solid lightgray;
     border-radius: 5px;
     color: lightgray;
-  }
-form:hover{
-  border: 1px solid black;
-  color: inherit;
+}
+
+form:hover {
+    border: 1px solid black;
+    color: inherit;
 }
 
 input,
@@ -383,15 +395,17 @@ textarea {
     width: 280px;
     padding: .4em;
 }
+
 input:hover,
-textarea:hover{
-  border: 1px solid black;
+textarea:hover {
+    border: 1px solid black;
 }
+
 input:focus,
-textarea:focus{
-      outline-offset: 0px;
-      outline: none;
-      border:  1px solid #ff8518;
+textarea:focus {
+    outline-offset: 0px;
+    outline: none;
+    border: 1px solid #ff8518;
 }
 
 textarea {
@@ -410,14 +424,16 @@ textarea {
     border: 1px solid lightgray;
     border-radius: 5px;
 }
+
 .formBtn:hover {
     border: 1px solid black;
-        color: #ff8518;
+    color: #ff8518;
 }
-#emailBtn{
-  margin-top: 30px;
-  width: auto;
-  padding: 10px;
+
+#emailBtn {
+    margin-top: 30px;
+    width: auto;
+    padding: 10px;
 }
 
 
