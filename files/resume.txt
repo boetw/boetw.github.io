@@ -1,50 +1,64 @@
 BOET WALDBJORN
 boetw@me.com
 509.768.1739
+ I am a front-leaning, full-stack developer with a strong interest in code as design and Internet of Things. A strong background in printmaking and theater design has given me an eye for how things work together and a mind for how they should work together.
 
 SKILLS
-Highly skilled at problem solving.
-Experienced at finding the best solution for mixed groups.
-Experienced at managing CRMs and handling customer data.
-Trained front-end web developer.
+Web Development
+ HTML5
+ CSS 
+ JavaScript
+ Git
+ jQuery
+ Node.js
+ JSON
+Adobe Photoshop
+Microsoft Office
+Photography
+Canon Large Format Printer
+Color Management 
+Adobe Creative Cloud
 
-Web Development, JavaScript, AngularJS, jQuery, HTML5, CSS, Ruby
-Node.js, Express, MongoDB, JSON, Rails
-Microsoft Office, Adobe Creative Cloud, Mac OS X, Photography
-
-Certifications
+CERTIFICATIONS
 Apple Product Professional
-OS Qualified
+OS X Qualified
 Macintosh Integration Basics.
 
-EXPERIENCE
-Simply Mac, Kent, WA & Seattle, WA
-02/13 - 06-16
-Sales, Technician, Manager
-Ran day to day operation of the store and training of employees.
-Acted as escalation point for customers with satisfaction issues.
-Supervised staff interactions with customer.
-Mentored employees in leadership and sales process development through the company’s sales programs
 
+EXPERIENCE
+Espionage Cosmetics
+01/17 - 06/17
+Web Developer
+Freelance web developer updating web sites to be responsive and teaching staff to maintain the site.. Worked in CSS, HTML, JavaScript, JQuery, and Liquid.
+
+General Assembly
+07/16 - 10/16
+Web Dev Immersive
+Intensive 12-week bootcamp covering AngularJS, Front End, JavaScript, MongoDB, HTML, Git, Rails, SQL, jQuery, Ruby, CSS, Express.js, React.js, Node.js. Built real websites, APIs, and data-driven apps while collaborating with peers on a range of projects.
+
+Simply Mac
+02/13 - 06/16
+Sales, Technician, Manager
+Ran day to day operation of the store and training of employees. Acted as escalation point for customers with satisfaction issues. Supervised staff interactions with customer. Mentored employees in leadership and sales process development through the company’s sales programs.
+
+Pyramid Staging
+09/12 - 03/15
+Stage Hand
+Worked in crews building staging and setting up audio and rigging equipment. Oversaw loading and unloading of gear for most efficient setups. Interacted with public and clients at a  variety of locations and venues. 
+Clinically Inane
+05/12 - Present 
+Cohost/ Contributing Author 
 Bridge Consulting Group
 06/11 - 01/12
 Technical Recruiter
-Recruited various technical professionals in Seattle area
-Sourced, qualified, and interviewed candidates
-Represented company in meetings and social events
-Clients included Microsoft, Pokèmon, Expedia & more.
+Recruited various technical professionals in Seattle area. Sourced, qualified, and interviewed candidates. Represented company in meetings and social events. Clients included Microsoft, Pokèmon, Expedia & more.
 
-Pyramid Staging
-09/13 - 03/15
-Stage Hand
-Worked in crews building staging and setting up audio and rigging equipment 
-Oversaw loading and unloading of gear for most efficient setups
-Interacted with public and clients at a variety of locations and venues 
-Cohost/ Contributing Author at Clinically Inane 
-May 2012 - Present 
+The Mac Store
+11/10 – 06/11 
+Customer Service Representative
+Handled customer sales. Educated customers on products. Acted as assistant manager as scheduled. Minor software and hardware repairs.
 
-Photographer at BoetW 
-2008 - Present  
+
 EDUCATION
 General Assembly, Seattle, WA
 2016
@@ -53,5 +67,5 @@ Intensive 12-week bootcamp covering AngularJS, Front End, JavaScript, MongoDB, H
 
 Eastern Washington University, Cheney, WA
 2005 - 2009
-Bachelor of Arts, Studio Art
-Extensive course work in photography, theater design, and silkscreening. Worked heavily with large format printer and color management.
+Bachelor of Arts, Studio Art - Digital Media and Photography
+Extensive course work in photography, theater design, and silkscreening. Worked heavily with large format printer and color management. 	Minor -  Theater Design
