@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body {
+    background-color: #000000;
+    background: url("./images/Slant_Seas.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    color: #454646;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.name {
+    clear: both;
+    margin: 18% 0;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+}
+h1{
+	font-size: 1200%;
+	font-weight: 900;
+	letter-spacing: -25px;
+	color: rgba(200, 200, 200, 0.2);
+	text-shadow: 10px 0px 10px rgba(255, 255, 255, 0.4);
+}
+h2{
+	font-size: 1200%;
+	font-weight: 900;
+	letter-spacing: -25px;
+	color: rgba(200, 200, 200, 0.2);
+}
+strong{
+	letter-spacing: 25px;
+	font-size: 100%;
+	font-weight: 900;
+	}
