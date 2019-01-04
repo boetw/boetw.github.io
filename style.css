@@ -24,20 +24,29 @@ body {
     text-align: center;
 }
 h1{
-	font-size: 1200%;
-	font-weight: 900;
-	letter-spacing: -25px;
-	color: rgba(200, 200, 200, 0.2);
-	text-shadow: 10px 0px 10px rgba(255, 255, 255, 0.4);
+    font-size: 1200%;
+    font-weight: 900;
+    letter-spacing: -25px;
+    color: rgba(200, 200, 200, 0.2);
+    text-shadow: 10px 0px 20px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
 }
+
+ h1>span:hover{
+    font-size: 100%;
+    font-weight: 900;
+    letter-spacing: -25px;
+    color: rgba(200, 200, 200, 0.8);
+    text-shadow: none;
+} 
 h2{
-	font-size: 1200%;
-	font-weight: 900;
-	letter-spacing: -25px;
-	color: rgba(200, 200, 200, 0.2);
+    font-size: 1200%;
+    font-weight: 900;
+    letter-spacing: -25px;
+    color: rgba(200, 200, 200, 0.2);
 }
 strong{
-	letter-spacing: -15px;
-	font-size: 100%;
-	font-weight: 900;
-	}
+    letter-spacing: -15px;
+    font-size: 100%;
+    font-weight: 900;
+    }
