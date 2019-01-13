@@ -10,7 +10,7 @@ font-size: 150px;
 html {
     padding: 0;
     margin: 0;
-    font-family: "Lato", Georgia;
+    font-family: "Lato", monospace;
     font-style: normal;
     font-weight: normal;
     font-stretch: normal;
